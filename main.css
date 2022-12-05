@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-image: url('background-technology-desktop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.full-screen-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+
+}
+.container{
+  background-color: rgba(54, 77, 180, 0.7);
+  width: 490px;
+  border: 4px solid transparent;
+  padding: 100px;
+  border-radius:12px ;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+h1{
+  font-size: 2.3rem;
+  color: white;
+}
+.container > p{
+  font-size: 3rem;
+}
+p{
+  font-size: 1.5rem;
+  color: white;
+}
+h1,p{
+  text-align: center;
+  margin: 0;
+}
+#incrmBtn, #decrmBtn, #saveBtn, .reset{
+  border:none ;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+}
+.save-display{
+  display: flex;
+  justify-content: space-evenly;
+}
+.save{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+#incrmBtn:hover, #decrmBtn:hover, #saveBtn:hover, .reset:hover{
+  transform: scale(0.95);
+}
+#incrmBtn{
+  background-color: mediumseagreen;
+  font-weight: bold;
+}
+#decrmBtn{
+  background-color: tomato;
+  font-weight: bold;
+}
+.reset{
+  display: none;
+  font-weight: bold;
+}
+#saveBtn{
+  font-weight: bold;
+}
